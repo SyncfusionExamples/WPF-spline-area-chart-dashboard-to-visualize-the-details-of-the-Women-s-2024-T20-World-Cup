@@ -1,0 +1,702 @@
+{
+  "New Zealand": [
+    {
+      "Name": "Suzie Bates",
+      "Score": 466
+    },
+    {
+      "Name": "Amelia Kerr",
+      "Score": 387
+    },
+    {
+      "Name": "Sophie Devine",
+      "Score": 284
+    },
+    {
+      "Name": "Georgia Plimmer",
+      "Score": 282 
+    },
+    {
+      "Name": "Brooke Halliday",
+      "Score": 268
+    },
+    {
+      "Name": "Maddy Green",
+      "Score": 178
+    },
+    {
+      "Name": "Isabella Gaze",
+      "Score": 166
+    },
+    {
+      "Name": "Jess Kerr",
+      "Score": 86
+    },
+    {
+      "Name": "Lea Tahuhu",
+      "Score": 72
+    },
+    {
+      "Name": "Bernadine Bezuidenhout",
+      "Score": 59
+    },
+    {
+      "Name": "Rosemary Mair",
+      "Score": 20
+    },
+    {
+      "Name": "Leigh Kasperek",
+      "Score": 15
+    },
+    {
+      "Name": "Hannah Rowe",
+      "Score": 9
+    },
+    {
+      "Name": "Eden Carson",
+      "Score": 6
+    },
+    {
+      "Name": "Fran Jonas",
+      "Score": 3
+    },
+    {
+      "Name": "Molly Penfold",
+      "Score": 1
+    }
+  ],
+  "Australia": [
+    {
+      "Name": "Beth Mooney",
+      "Score": 494
+    },
+    {
+      "Name": "Alyssa Healy",
+      "Score": 433
+    },
+    {
+      "Name": "Ellyse Perry",
+      "Score": 351
+    },
+    {
+      "Name": "Tahlia McGrath",
+      "Score": 251
+    },
+    {
+      "Name": "Phoebe Litchfield",
+      "Score": 227
+    },
+    {
+      "Name": "Grace Harris",
+      "Score": 149
+    },
+    {
+      "Name": "Georgia Wareham",
+      "Score": 147
+    },
+    {
+      "Name": "Ashleigh Gardner",
+      "Score": 146
+    },
+    {
+      "Name": "Annabel Sutherland",
+      "Score": 36
+    },
+    {
+      "Name": "Sophie Molineux",
+      "Score": 11
+    },
+    {
+      "Name": "Darcie Brown",
+      "Score": 2
+    },
+    {
+      "Name": "Megan Schutt",
+      "Score": 1
+    }
+  ],
+  "India": [
+    {
+      "Name": "Smriti Mandhana",
+      "Score": 570
+    },
+    {
+      "Name": "Shafali Verma",
+      "Score": 531
+    },
+    {
+      "Name": "Harmanpreet Kaur",
+      "Score": 381
+    },
+    {
+      "Name": "Richa Ghosh",
+      "Score": 259
+    },
+    {
+      "Name": "Jemimah Rodrigues",
+      "Score": 219
+    },
+    {
+      "Name": "Dayalan Hemalatha",
+      "Score": 186
+    },
+    {
+      "Name": "Deepti Sharma",
+      "Score": 98
+    },
+    {
+      "Name": "Pooja Vastrakar",
+      "Score": 43
+    },
+    {
+      "Name": "Yastika Bhatia",
+      "Score": 36
+    },
+    {
+      "Name": "Sajeevan Sajana",
+      "Score": 34
+    },
+    {
+      "Name": "Amanjot Kaur",
+      "Score": 21
+    },
+    {
+      "Name": "Shreyanka Patil",
+      "Score": 15
+    },
+    {
+      "Name": "Uma Chetry",
+      "Score": 9
+    },
+    {
+      "Name": "Asha Sobhana",
+      "Score": 6
+    },
+    {
+      "Name": "Radha Yadav",
+      "Score": 1
+    },
+    {
+      "Name": "Renuka Singh",
+      "Score": 1
+    },
+    {
+      "Name": "Arundhati Reddy",
+      "Score": 1
+    }
+  ],
+  "Pakistan": [
+    {
+      "Name": "Muneeba Ali",
+      "Score": 414
+    },
+    {
+      "Name": "Sidra Amin",
+      "Score": 341
+    },
+    {
+      "Name": "Gull Feroza",
+      "Score": 281
+    },
+    {
+      "Name": "Nida Dar",
+      "Score": 252
+    },
+    {
+      "Name": "Fatima Sana",
+      "Score": 234
+    },
+    {
+      "Name": "Aliya Riaz",
+      "Score": 204
+    },
+    {
+      "Name": "Ayesha Zafar",
+      "Score": 99
+    },
+    {
+      "Name": "Sadaf Shamas",
+      "Score": 48
+    },
+    {
+      "Name": "Tuba Hassan",
+      "Score": 44
+    },
+    {
+      "Name": "Omaima Sohail",
+      "Score": 26
+    },
+    {
+      "Name": "Rameen Shamim",
+      "Score": 22
+    },
+    {
+      "Name": "Syeda Aroob Shah",
+      "Score": 17
+    },
+    {
+      "Name": "Nashra Sandhu",
+      "Score": 17
+    },
+    {
+      "Name": "Iram Javed",
+      "Score": 15
+    },
+    {
+      "Name": "Najiha Alvi",
+      "Score": 14
+    },
+    {
+      "Name": "Sadia Iqbal",
+      "Score": 10
+    },
+    {
+      "Name": "Natalia Pervaiz",
+      "Score": 9
+    },
+    {
+      "Name": "Diana Baig",
+      "Score": 4
+    },
+    {
+      "Name": "Waheeda Akhtar",
+      "Score": 2
+    }
+  ],
+  "Sri Lanka": [
+    {
+      "Name": "Chamari Athapaththu",
+      "Score": 720
+    },
+    {
+      "Name": "Harshitha Samarawickrama",
+      "Score": 585
+    },
+    {
+      "Name": "Vishmi Gunaratne",
+      "Score": 475
+    },
+    {
+      "Name": "Kavisha Dilhari",
+      "Score": 303
+    },
+    {
+      "Name": "Nilakshika Silva",
+      "Score": 224
+    },
+    {
+      "Name": "Hasini Perera",
+      "Score": 164
+    },
+    {
+      "Name": "Anushka Sanjeewani",
+      "Score": 163
+    },
+    {
+      "Name": "Ama KanSchana",
+      "Score": 66
+    },
+    {
+      "Name": "Hansima Karunaratne",
+      "Score": 36
+    },
+    {
+      "Name": "Udeshika Prabodhani",
+      "Score": 13
+    },
+    {
+      "Name": "Sugandika Kumari",
+      "Score": 11
+    },
+    {
+      "Name": "Kaushini Nuthyangana",
+      "Score": 7
+    },
+    {
+      "Name": "Imesha Dulani",
+      "Score": 6
+    },
+    {
+      "Name": "Kawya Kavindi",
+      "Score": 6
+    },
+    {
+      "Name": "Inoshi Priyadharshani",
+      "Score": 6
+    },
+    {
+      "Name": "Inoka Ranaweera",
+      "Score": 3
+    },
+    {
+      "Name": "Sachini Nisansala",
+      "Score": 3
+    }
+  ],
+  "West Indies": [
+    {
+      "Name": "Hayley Matthews",
+      "Score": 430
+    },
+    {
+      "Name": "Shemaine Campbelle",
+      "Score": 223
+    },
+    {
+      "Name": "Stafanie Taylor",
+      "Score": 190
+    },
+    {
+      "Name": "Qiana Joseph",
+      "Score": 166
+    },
+    {
+      "Name": "Deandra Dottin",
+      "Score": 120
+    },
+    {
+      "Name": "Aaliyah Alleyne",
+      "Score": 71
+    },
+    {
+      "Name": "Chedean Nation",
+      "Score": 66
+    },
+    {
+      "Name": "Chinelle Henry",
+      "Score": 58
+    },
+    {
+      "Name": "Zaida James",
+      "Score": 55
+    },
+    {
+      "Name": "Afy Fletcher",
+      "Score": 44
+    },
+    {
+      "Name": "Rashada Williams",
+      "Score": 17
+    },
+    {
+      "Name": "Jannillea Glasgow",
+      "Score": 10
+    },
+    {
+      "Name": "Shamilia Connell",
+      "Score": 9
+    },
+    {
+      "Name": "Cherry-Ann Fraser",
+      "Score": 5
+    },
+    {
+      "Name": "Karishma Ramharack",
+      "Score": 5
+    },
+    {
+      "Name": "Kate Wilmott",
+      "Score": 3
+    },
+    {
+      "Name": "Ashmini Munisar",
+      "Score": 1
+    }
+  ],
+  "South Africa": [
+    {
+      "Name": "Laura Wolvaardt",
+      "Score": 626
+    },
+    {
+      "Name": "Tazmin Brits",
+      "Score": 534
+    },
+    {
+      "Name": "Marizanne Kapp",
+      "Score": 399
+    },
+    {
+      "Name": "Anneke Bosch",
+      "Score": 387
+    },
+    {
+      "Name": "Sune Luus",
+      "Score": 163
+    },
+    {
+      "Name": "Chloe Tryon",
+      "Score": 156
+    },
+    {
+      "Name": "Nadine de Klerk",
+      "Score": 125
+    },
+    {
+      "Name": "Annerie Dercksen",
+      "Score": 92
+    },
+    {
+      "Name": "Sinalo Jafta",
+      "Score": 15
+    },
+    {
+      "Name": "Eliz-Mari Marx",
+      "Score": 12
+    },
+    {
+      "Name": "Nonkululeko Mlaba",
+      "Score": 8
+    },
+    {
+      "Name": "Masabata Klaas",
+      "Score": 5
+    },
+    {
+      "Name": "Ayabonga Khaka",
+      "Score": 4
+    }
+  ],
+  "England": [
+    {
+      "Name": "Maia Bouchier",
+      "Score": 440
+    },
+    {
+      "Name": "Danni Wyatt-Hodge",
+      "Score": 377
+    },
+    {
+      "Name": "Heather Knight",
+      "Score": 356
+    },
+    {
+      "Name": "Nat Sciver-Brunt",
+      "Score": 297
+    },
+    {
+      "Name": "Alice Capsey",
+      "Score": 245
+    },
+    {
+      "Name": "Amy Jones",
+      "Score": 154
+    },
+    {
+      "Name": "Tammy Beaumont",
+      "Score": 138
+    },
+    {
+      "Name": "Danielle Gibson",
+      "Score": 111
+    },
+    {
+      "Name": "Sophia Dunkley",
+      "Score": 101
+    },
+    {
+      "Name": "Bryony Smith",
+      "Score": 86
+    },
+    {
+      "Name": "Charlie Dean",
+      "Score": 57
+    },
+    {
+      "Name": "Sophie Ecclestone",
+      "Score": 57
+    },
+    {
+      "Name": "Freya Kemp",
+      "Score": 44
+    },
+    {
+      "Name": "Georgia Adams",
+      "Score": 39
+    },
+    {
+      "Name": "Mady Villiers",
+      "Score": 39
+    },
+    {
+      "Name": "Paige Scholfield",
+      "Score": 36
+    },
+    {
+      "Name": "Seren Smale",
+      "Score": 35
+    },
+    {
+      "Name": "Sarah Glenn",
+      "Score": 15
+    },
+    {
+      "Name": "Issy Wong",
+      "Score": 9
+    },
+    {
+      "Name": "Charis Pavely",
+      "Score": 9
+    },
+    {
+      "Name": "Bess Heath",
+      "Score": 5
+    },
+    {
+      "Name": "Hollie Armitage",
+      "Score": 5
+    },
+    {
+      "Name": "Lauren Filer",
+      "Score": 2
+    },
+    {
+      "Name": "Mahika Gaur",
+      "Score": 1
+    }
+  ],
+  "Bangladesh": [
+    {
+      "Name": "Nigar Sultana",
+      "Score": 435
+    },
+    {
+      "Name": "Murshida Khatun",
+      "Score": 244
+    },
+    {
+      "Name": "Dilara Akter",
+      "Score": 204
+    },
+    {
+      "Name": "Sobhana Mostary",
+      "Score": 192
+    },
+    {
+      "Name": "Ritu Moni",
+      "Score": 110
+    },
+    {
+      "Name": "Shorna Akter",
+      "Score": 94
+    },
+    {
+      "Name": "Fahima Khatun",
+      "Score": 71
+    },
+    {
+      "Name": "Rabeya Khan",
+      "Score": 66
+    },
+    {
+      "Name": "Shathi Rani",
+      "Score": 64
+    },
+    {
+      "Name": "Shorifa Khatun",
+      "Score": 47
+    },
+    {
+      "Name": "Rubya Haider",
+      "Score": 33
+    },
+    {
+      "Name": "Ishma Tanjim",
+      "Score": 24
+    },
+    {
+      "Name": "Nahida Akter",
+      "Score": 22
+    },
+    {
+      "Name": "Rumana Ahmed",
+      "Score": 12
+    },
+    {
+      "Name": "Taj Nehar",
+      "Score": 8
+    },
+    {
+      "Name": "Marufa Akter",
+      "Score": 5
+    },
+    {
+      "Name": "Sultana Khatun",
+      "Score": 4
+    },
+    {
+      "Name": "Fariha Trisna",
+      "Score": 3
+    }
+  ],
+  "Scotland": [
+    {
+      "Name": "Kathryn Bryce",
+      "Score": 253
+    },
+    {
+      "Name": "Ailsa Lister",
+      "Score": 162
+    },
+    {
+      "Name": "Saskia Horley",
+      "Score": 142
+    },
+    {
+      "Name": "Darcey Carter",
+      "Score": 130
+    },
+    {
+      "Name": "Sarah Bryce",
+      "Score": 129
+    },
+    {
+      "Name": "Priyanaz Chatterji",
+      "Score": 123
+    },
+    {
+      "Name": "Lorna Jack-Brown",
+      "Score": 110
+    },
+    {
+      "Name": "Megan McColl",
+      "Score": 97
+    },
+    {
+      "Name": "Katherine Fraser",
+      "Score": 42
+    },
+    {
+      "Name": "Rachel Slater",
+      "Score": 23
+    },
+    {
+      "Name": "Abbi Aitken-Drummond",
+      "Score": 22
+    },
+    {
+      "Name": "Chloe Abel",
+      "Score": 20
+    },
+    {
+      "Name": "Abtaha Maqsood",
+      "Score": 11
+    },
+    {
+      "Name": "Maryam Faisal",
+      "Score": 8
+    },
+    {
+      "Name": "Olivia Bell",
+      "Score": 3
+    },
+    {
+      "Name": "Ellen Watson",
+      "Score": 2
+    },
+    {
+      "Name": "Nayma Sheikh",
+      "Score": 1
+    }
+  ]
+}
