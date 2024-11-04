@@ -290,7 +290,6 @@
 
                         </chart:SfChart.Behaviors>
 
-
                         <chart:SplineAreaSeries ItemsSource="{Binding Data}" XBindingPath="Name" YBindingPath="Score" StrokeThickness="2">
 
                             <chart:SplineAreaSeries.Stroke>
