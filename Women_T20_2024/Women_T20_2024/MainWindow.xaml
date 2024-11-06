@@ -290,27 +290,12 @@
 
                         </chart:SfChart.Behaviors>
 
-                        <chart:SplineAreaSeries ItemsSource="{Binding Data}" XBindingPath="Name" YBindingPath="Score" StrokeThickness="2">
-
-                            <chart:SplineAreaSeries.Stroke>
-                                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                                    <GradientStop Color="#0051BE" Offset="0.0" />
-                                    <GradientStop Color="#2297E3" Offset="0.66" />
-                                    <GradientStop Color="#0051BE" Offset="1.0" />
-                                </LinearGradientBrush>
-                            </chart:SplineAreaSeries.Stroke>
-
-                            <chart:SplineAreaSeries.Interior>
-                                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-                                    <GradientStop Color="#0a2f61" Offset="0.0" />
-                                    <GradientStop Color="#084ca0" Offset="0.5" />
-                                    <GradientStop Color="#730a2f61" Offset="0.8" />
-                                </LinearGradientBrush>
-                            </chart:SplineAreaSeries.Interior>
+                        <chart:SplineAreaSeries ItemsSource="{Binding Data}" XBindingPath="Name" Stroke="#2093E1" Interior="#213F5E"
+                                                YBindingPath="Score" StrokeThickness="2">
 
                             <chart:SplineAreaSeries.TrackBallLabelTemplate>
                                 <DataTemplate>
-                                    <Ellipse Height="15" Width="15" Fill="#285593" Stroke="White" StrokeThickness="2" StrokeDashArray="2,1"/>
+                                    <Ellipse Height="15" Width="15" Fill="#213F5E" Stroke="White" StrokeThickness="2" StrokeDashArray="2,1"/>
                                 </DataTemplate>
                             </chart:SplineAreaSeries.TrackBallLabelTemplate>
 
