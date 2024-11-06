@@ -8,7 +8,7 @@
         xmlns:model="clr-namespace:Women_T20_2024"
         mc:Ignorable="d">
 
-    <Border Margin="15,25,15,15" BorderThickness="2" CornerRadius="10" BorderBrush="#79747E"  Background="#202020">
+    <Border Margin="15,25,15,15" BorderThickness="2" CornerRadius="10" BorderBrush="#79747E"  Background="#15233D">
 
         <Border.DataContext>
             <model:T20_Data x:Name="viewModel"/>
@@ -35,7 +35,7 @@
                 <ColumnDefinition Width="3*"/>
             </Grid.ColumnDefinitions>
 
-            <Grid Grid.Row="0" Grid.ColumnSpan="3" Margin="3,3,3,0" Background="#3d3d3d">
+            <Grid Grid.Row="0" Grid.ColumnSpan="3" Margin="3,3,3,0" Background="#15233D">
 
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="2*"/>
@@ -68,7 +68,7 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
 
-                <Border Grid.Row="0" BorderThickness="2" CornerRadius="10" Margin="5" Background="#3d3d3d">
+                <Border Grid.Row="0" BorderThickness="2" CornerRadius="10" Margin="5" Background="#253A4F">
 
                     <StackPanel VerticalAlignment="Center">
                         <Image Grid.Column="0" Source="{Binding BatterImage, Converter={StaticResource ImagePathConverter}}" Width="240" Height="210"/>
@@ -81,7 +81,7 @@
 
                 </Border>
 
-                <Border Grid.Row="1" BorderThickness="2" CornerRadius="10" Margin="5" Background="#3d3d3d">
+                <Border Grid.Row="1" BorderThickness="2" CornerRadius="10" Margin="5" Background="#253A4F">
 
                     <StackPanel VerticalAlignment="Center">
                         <Image Grid.Column="0" Source="{Binding WicketTakerImage, Converter={StaticResource ImagePathConverter}}" Width="240" Height="210"/>
@@ -113,9 +113,9 @@
 
                     <Border.Background>
                         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                            <GradientStop Color="#1A9891" Offset="0.0"/>
-                            <GradientStop Color="#22718F" Offset="0.66"/>
-                            <GradientStop Color="#2CCDD9" Offset="1.0"/>
+                            <GradientStop Color="#125ABC" Offset="0.0"/>
+                            <GradientStop Color="#1298EF" Offset="0.66"/>
+                            <GradientStop Color="#125ABC" Offset="1.0"/>
                         </LinearGradientBrush>
                     </Border.Background>
 
@@ -130,9 +130,9 @@
 
                     <Border.Background>
                         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                            <GradientStop Color="#1A9891" Offset="0.0"/>
-                            <GradientStop Color="#22718F" Offset="0.66"/>
-                            <GradientStop Color="#2CCDD9" Offset="1.0"/>
+                            <GradientStop Color="#125ABC" Offset="0.0"/>
+                            <GradientStop Color="#1298EF" Offset="0.66"/>
+                            <GradientStop Color="#125ABC" Offset="1.0"/>
                         </LinearGradientBrush>
                     </Border.Background>
 
@@ -147,9 +147,9 @@
 
                     <Border.Background>
                         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                            <GradientStop Color="#1A9891" Offset="0.0"/>
-                            <GradientStop Color="#22718F" Offset="0.66"/>
-                            <GradientStop Color="#2CCDD9" Offset="1.0"/>
+                            <GradientStop Color="#125ABC" Offset="0.0"/>
+                            <GradientStop Color="#1298EF" Offset="0.66"/>
+                            <GradientStop Color="#125ABC" Offset="1.0"/>
                         </LinearGradientBrush>
                     </Border.Background>
 
@@ -164,9 +164,9 @@
 
                     <Border.Background>
                         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                            <GradientStop Color="#1A9891" Offset="0.0"/>
-                            <GradientStop Color="#22718F" Offset="0.66"/>
-                            <GradientStop Color="#2CCDD9" Offset="1.0"/>
+                            <GradientStop Color="#125ABC" Offset="0.0"/>
+                            <GradientStop Color="#1298EF" Offset="0.66"/>
+                            <GradientStop Color="#125ABC" Offset="1.0"/>
                         </LinearGradientBrush>
                     </Border.Background>
 
@@ -181,9 +181,9 @@
 
                     <Border.Background>
                         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                            <GradientStop Color="#1A9891" Offset="0.0"/>
-                            <GradientStop Color="#22718F" Offset="0.66"/>
-                            <GradientStop Color="#2CCDD9" Offset="1.0"/>
+                            <GradientStop Color="#125ABC" Offset="0.0"/>
+                            <GradientStop Color="#1298EF" Offset="0.66"/>
+                            <GradientStop Color="#125ABC" Offset="1.0"/>
                         </LinearGradientBrush>
                     </Border.Background>
 
@@ -196,7 +196,7 @@
 
             </Grid>
 
-            <Border Grid.Row="1" Grid.Column="2" Margin="3" Padding="0,10,0,0" BorderThickness="2" CornerRadius="10" Background="#3d3d3d">
+            <Border Grid.Row="1" Grid.Column="2" Margin="3" Padding="0,10,0,0" BorderThickness="2" CornerRadius="10" Background="#253A4F">
                
                 <chart:SfChart>
 
@@ -225,8 +225,8 @@
                             <chart:DoughnutSeries.ColorModel>
                                 <chart:ChartColorModel>
                                     <chart:ChartColorModel.CustomBrushes>
-                                        <SolidColorBrush Color="#13B795"/>
-                                        <SolidColorBrush Color="#275687"/>
+                                        <SolidColorBrush Color="#FB4944"/>
+                                        <SolidColorBrush Color="#1ACA99"/>
                                     </chart:ChartColorModel.CustomBrushes>
                                 </chart:ChartColorModel>
 
@@ -239,7 +239,7 @@
         
             </Border>
 
-            <Border Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Margin="3" BorderThickness="2" CornerRadius="10" Background="#3d3d3d">
+            <Border Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Margin="3" BorderThickness="2" CornerRadius="10" Background="#253A4F">
 
                 <Grid>
                     <Grid.RowDefinitions>
@@ -251,11 +251,11 @@
                   
                         <StackPanel>
                             <TextBlock Text="Top Runs Scorers" FontSize="14" HorizontalAlignment="Left" 
-                                     Margin="5,10,0,0" Foreground="#1E856D" FontWeight="SemiBold"/>
+                                     Margin="5,10,0,0" Foreground="#65C1FF" FontWeight="SemiBold"/>
 
                             <StackPanel HorizontalAlignment="Right" Margin="0,-20,20,0">
                                 <TextBlock Text="{Binding Score}" FontSize="15" Foreground="#BEBEBE" FontWeight="SemiBold" HorizontalAlignment="Center"/>
-                                <TextBlock Text="{Binding Name}" FontSize="12" Foreground="#1E856D" />
+                                <TextBlock Text="{Binding Name}" FontSize="12" Foreground="#65C1FF" />
                             </StackPanel>
                             
                         </StackPanel>
@@ -294,17 +294,17 @@
 
                             <chart:SplineAreaSeries.Stroke>
                                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                                    <GradientStop Color="#0FB694" Offset="0.0" />
-                                    <GradientStop Color="#285593" Offset="0.66" />
-                                    <GradientStop Color="#2A909E" Offset="1.0" />
+                                    <GradientStop Color="#0051BE" Offset="0.0" />
+                                    <GradientStop Color="#2297E3" Offset="0.66" />
+                                    <GradientStop Color="#0051BE" Offset="1.0" />
                                 </LinearGradientBrush>
                             </chart:SplineAreaSeries.Stroke>
 
                             <chart:SplineAreaSeries.Interior>
                                 <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-                                    <GradientStop Color="#406868" Offset="0.0" />
-                                    <GradientStop Color="#264849" Offset="0.4" />
-                                    <GradientStop Color="#3d3d3d" Offset="1.0" />
+                                    <GradientStop Color="#0a2f61" Offset="0.0" />
+                                    <GradientStop Color="#084ca0" Offset="0.5" />
+                                    <GradientStop Color="#730a2f61" Offset="0.8" />
                                 </LinearGradientBrush>
                             </chart:SplineAreaSeries.Interior>
 
