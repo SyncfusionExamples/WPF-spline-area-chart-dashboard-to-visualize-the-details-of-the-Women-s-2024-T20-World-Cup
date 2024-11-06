@@ -1,0 +1,329 @@
+﻿<Window x:Class="Women_T20_2024.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:chart="clr-namespace:Syncfusion.UI.Xaml.Charts;assembly=Syncfusion.SfChart.WPF"
+        xmlns:editors="http://schemas.syncfusion.com/wpf" 
+        xmlns:model="clr-namespace:Women_T20_2024"
+        mc:Ignorable="d">
+
+    <Border Margin="15,25,15,15" BorderThickness="2" CornerRadius="10" BorderBrush="#79747E"  Background="#15233D">
+
+        <Border.DataContext>
+            <model:T20_Data x:Name="viewModel"/>
+        </Border.DataContext>
+
+        <Border.Resources>
+            <Geometry x:Key="PathData">M25.200012,21.699998L31,21.699998 30.799988,22.000001 30.799988,25.099999C30.799988,26.399995,29.799988,27.500001,28.5,27.699998L28.5,31.000001 29.099976,31.000001C29.400024,31.000001 29.599976,31.199998 29.599976,31.500001 29.599976,31.799996 29.400024,31.999999 29.099976,31.999999L27,31.999999C26.700012,31.999999 26.5,31.799996 26.5,31.500001 26.5,31.199998 26.700012,31.000001 27,31.000001L27.599976,31.000001 27.599976,27.799996C26.299988,27.599999,25.299988,26.500001,25.299988,25.199998L25.299988,22.099999z M7.4000243,19.799996C8.7000121,20.799996,10.200012,21.500001,11.900024,21.799996L12.099976,21.799996 12.200012,22.000001C12.599976,23.099999 13.200012,24.000001 13.900024,24.899995 14.599976,24.099999 15.099976,23.099999 15.599976,22.199998L15.799988,21.799996 16,21.799996C17.599976,21.500001 19.200012,20.799996 20.5,19.799996 21.799988,20.000001 23,20.399995 24.099976,21.099999L24.200012,21.199998 24.599976,22.199998 24.599976,25.099999C24.599976,26.599999,25.5,27.899995,26.900024,28.500001L26.900024,30.000001C26.299988,30.199998 25.799988,30.799996 25.799988,31.399995 25.799988,31.599999 25.799988,31.699998 25.900024,31.799996L25.900024,31.899995 0,31.899995 0,28.199998C-7.1683004E-08,24.000001,3.2000121,20.399995,7.4000243,19.799996z M14.099976,0C16,0 17.900024,0.49999994 19.700012,1.2999992 23.400024,2.9999996 22.700012,8.6999996 22.700012,8.6999996 22.700012,11.000003 25.200012,15.299997 25.200012,15.299997 23.799988,15.299997 18.900024,18.199998 18.900024,18.199998 19.900024,17.100001 20.700012,14.299997 20.700012,14.299997 22.400024,3.7999988 16.599976,7.0999978 16.599976,7.0999978 16,7.4999989 15.400024,7.7999981 14.599976,7.9000004 13.799988,8.0999973 13,7.9999989 12.299988,7.5999973 11.5,7.2000001 10.900024,6.5999978 9.9999999,6.2999986 9.5999755,6.2000001 9.2999877,6.2000001 8.9999999,6.4999993 7.7999877,7.4999989 7.7000121,9.2999981 7.7000121,10.7 7.7000121,11.799998 7.7000121,12.899997 7.7999877,13.899996 7.9000243,15.699999 9.2999877,18.199998 9.2999877,18.199998 8.0999755,16.600001 2.7000121,15.000002 2.7000121,15.000002 6.0999755,13.299998 5.7000121,9.0999973 5.7000121,9.0999973 5.2999877,4.0999978 7.9999999,1.9999998 7.9999999,1.9999998 9.7999877,0.59999841 11.900024,0 14.099976,0z
+            </Geometry>
+
+            <model:ImagePathConverter x:Key="ImagePathConverter"/>
+        </Border.Resources>
+
+        <Grid>
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.75*"/>
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="5.25*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Row="0" Grid.ColumnSpan="3" Margin="3,3,3,0" Background="#15233D">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="5.25*"/>
+                    <ColumnDefinition Width="0.75*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+
+                <Path Grid.Column="0" Data="{StaticResource PathData}" Stroke="#FFFFFF" StrokeThickness="1.25" Margin="25,5,0,0">
+                    <Path.RenderTransform>
+                        <ScaleTransform ScaleX="0.9" ScaleY="0.9"/>
+                    </Path.RenderTransform>
+                </Path>
+
+                <TextBlock Grid.Column="1" Text="2024 Women’s T20 World Cup Stats" Foreground="#FFFFFF" FontSize="17"
+                           FontWeight="SemiBold" Margin="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+                <TextBlock Grid.Column="2" Text="Country" HorizontalAlignment="Right" Foreground="#FFFFFF" Margin="0,5,-10,0" FontSize="17"/>
+
+                <editors:ComboBoxAdv Grid.Column="3" Name="comboBox" Background="#FFFFFF" HorizontalAlignment="Center" VerticalAlignment="Center"
+                      SelectedIndex="{Binding SelectedIndex, Mode=TwoWay}" Height="30" Width="160" HorizontalContentAlignment="Center" ItemsSource="{Binding CountryOption}">
+                </editors:ComboBoxAdv>
+
+            </Grid>
+
+            <Grid Grid.Row="1" Grid.RowSpan="2" Grid.Column="0">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Grid.Row="0" BorderThickness="2" CornerRadius="10" Margin="5" Background="#253A4F">
+
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Grid.Column="0" Source="{Binding BatterImage, Converter={StaticResource ImagePathConverter}}" Width="240" Height="210"/>
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+                            <TextBlock Text="Top Batter : "  FontSize="15" Foreground="#FFFFFF"/>
+                            <TextBlock Text="{Binding Batter}" FontSize="16" FontWeight="SemiBold" HorizontalAlignment="Center" Foreground="#FFFFFF"/>
+                        </StackPanel>
+                    </StackPanel>
+
+                </Border>
+
+                <Border Grid.Row="1" BorderThickness="2" CornerRadius="10" Margin="5" Background="#253A4F">
+
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Grid.Column="0" Source="{Binding WicketTakerImage, Converter={StaticResource ImagePathConverter}}" Width="240" Height="210"/>
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+                            <TextBlock Text="Top Wicket Taker : "  FontSize="15" Foreground="#FFFFFF"/>
+                            <TextBlock Text="{Binding WicketTaker}" FontSize="16" FontWeight="SemiBold" HorizontalAlignment="Center" Foreground="#FFFFFF"/>
+                        </StackPanel>
+                    </StackPanel>
+
+                </Border>
+
+            </Grid>
+
+            <Grid Grid.Row="1" Grid.Column="1">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Row="0" Grid.Column="0" BorderThickness="2" CornerRadius="10" Margin="5">
+
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#125ABC" Offset="0.0"/>
+                            <GradientStop Color="#1298EF" Offset="0.66"/>
+                            <GradientStop Color="#125ABC" Offset="1.0"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+                        <TextBlock Text="Total Played"  FontSize="17" Foreground="#FFFFFF"/>
+                        <TextBlock Text="{Binding Play}" FontSize="19" FontWeight="SemiBold" HorizontalAlignment="Center" Foreground="#c9ffe9"/>
+                    </StackPanel>
+
+                </Border>
+
+                <Border Grid.Row="0" Grid.Column="1" BorderThickness="2" CornerRadius="10" Margin="5">
+
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#125ABC" Offset="0.0"/>
+                            <GradientStop Color="#1298EF" Offset="0.66"/>
+                            <GradientStop Color="#125ABC" Offset="1.0"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+                        <TextBlock Text="Total Wins"  FontSize="17" Foreground="#FFFFFF"/>
+                        <TextBlock Text="{Binding Wins}" FontSize="19" FontWeight="SemiBold" HorizontalAlignment="Center" Foreground="#c9ffe9"/>
+                    </StackPanel>
+
+                </Border>
+
+                <Border Grid.Row="1" Grid.Column="0" BorderThickness="2" CornerRadius="10" Margin="5">
+
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#125ABC" Offset="0.0"/>
+                            <GradientStop Color="#1298EF" Offset="0.66"/>
+                            <GradientStop Color="#125ABC" Offset="1.0"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+                        <TextBlock Text="Total Runs Scored" FontSize="17" Foreground="#FFFFFF"/>
+                        <TextBlock Text="{Binding Runs}" FontSize="19" FontWeight="SemiBold" HorizontalAlignment="Center" Foreground="#c9ffe9"/>
+                    </StackPanel>
+
+                </Border>
+
+                <Border Grid.Row="1" Grid.Column="1" BorderThickness="2" CornerRadius="10" Margin="5">
+
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#125ABC" Offset="0.0"/>
+                            <GradientStop Color="#1298EF" Offset="0.66"/>
+                            <GradientStop Color="#125ABC" Offset="1.0"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+                        <TextBlock Text="Total no of Catches taken"  FontSize="17" Foreground="#FFFFFF"/>
+                        <TextBlock Text="{Binding CatchValue}" FontSize="19" FontWeight="SemiBold" HorizontalAlignment="Center" Foreground="#c9ffe9"/>
+                    </StackPanel>
+
+                </Border>
+
+                <Border Grid.Row="2" Grid.ColumnSpan="2" BorderThickness="2" CornerRadius="10" Margin="5">
+
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#125ABC" Offset="0.0"/>
+                            <GradientStop Color="#1298EF" Offset="0.66"/>
+                            <GradientStop Color="#125ABC" Offset="1.0"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+                        <TextBlock Text="Runs Scored by Boundaries" FontSize="17" Foreground="#FFFFFF"/>
+                        <TextBlock Text="{Binding Boundaries}" FontSize="19" FontWeight="SemiBold" HorizontalAlignment="Center" Foreground="#c9ffe9"/>
+                    </StackPanel>
+         
+                </Border>
+
+            </Grid>
+
+            <Border Grid.Row="1" Grid.Column="2" Margin="3" Padding="0,10,0,0" BorderThickness="2" CornerRadius="10" Background="#253A4F">
+               
+                <chart:SfChart>
+
+                    <chart:SfChart.Legend>
+                        <chart:ChartLegend DockPosition="Bottom">
+                            <chart:ChartLegend.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Margin="20,0,20,0">
+                                        <StackPanel Orientation="Horizontal">
+                                            <Ellipse Height="15" Width="15" Fill="{Binding Interior}" Margin="0,0,5,0"/>
+                                            <TextBlock HorizontalAlignment="Center" FontSize="14" Foreground="White" Text="{Binding Item.Category}"/>
+                                        </StackPanel>
+                                        <TextBlock Margin="25,0,0,0" FontSize="16" Foreground="White" FontWeight="SemiBold" 
+                                                   Text="{Binding Item.Value}" HorizontalAlignment="Center"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </chart:ChartLegend.ItemTemplate>
+                        </chart:ChartLegend>
+                    </chart:SfChart.Legend>
+
+                    <chart:SfChart.Series>
+                        <chart:DoughnutSeries ItemsSource="{Binding ScoreData}" XBindingPath="Category"
+                                       YBindingPath="Value" DoughnutSize="1" DoughnutCoefficient="0.5"
+                                       StartAngle="130" EndAngle="410" Palette="Custom">
+
+                            <chart:DoughnutSeries.ColorModel>
+                                <chart:ChartColorModel>
+                                    <chart:ChartColorModel.CustomBrushes>
+                                        <SolidColorBrush Color="#FB4944"/>
+                                        <SolidColorBrush Color="#1ACA99"/>
+                                    </chart:ChartColorModel.CustomBrushes>
+                                </chart:ChartColorModel>
+
+                            </chart:DoughnutSeries.ColorModel>
+
+                        </chart:DoughnutSeries>
+                    </chart:SfChart.Series>
+                    
+                </chart:SfChart>
+        
+            </Border>
+
+            <Border Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Margin="3" BorderThickness="2" CornerRadius="10" Background="#253A4F">
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Border Grid.Row="0" Margin="3" BorderThickness="0,0,0,0.5" BorderBrush="#AAAAAF">
+                  
+                        <StackPanel>
+                            <TextBlock Text="Top Runs Scorers" FontSize="14" HorizontalAlignment="Left" 
+                                     Margin="5,10,0,0" Foreground="#65C1FF" FontWeight="SemiBold"/>
+
+                            <StackPanel HorizontalAlignment="Right" Margin="0,-20,20,0">
+                                <TextBlock Text="{Binding Score}" FontSize="15" Foreground="#BEBEBE" FontWeight="SemiBold" HorizontalAlignment="Center"/>
+                                <TextBlock Text="{Binding Name}" FontSize="12" Foreground="#65C1FF" />
+                            </StackPanel>
+                            
+                        </StackPanel>
+                    
+                    </Border>
+
+                    <chart:SfChart Grid.Row="1">
+
+                        <chart:SfChart.PrimaryAxis>
+                            <chart:CategoryAxis ShowGridLines="False" FontSize="13" Foreground="White" TickLineSize="5"
+                                    EdgeLabelsDrawingMode="Shift" AutoScrollingDelta="8" AutoScrollingMode="Start"/>
+                        </chart:SfChart.PrimaryAxis>
+
+                        <chart:SfChart.SecondaryAxis>
+                            <chart:NumericalAxis ShowGridLines="False" Visibility="Collapsed"/>
+                        </chart:SfChart.SecondaryAxis>
+
+                        <chart:SfChart.Behaviors>
+
+                            <chart:ChartTrackBallBehavior ShowLine="False" PositionChanged="ChartTrackBallBehavior_PositionChanged">
+                                <chart:ChartTrackBallBehavior.ChartTrackBallStyle>
+                                    <Style TargetType="chart:ChartTrackBallControl">
+                                        <Setter Property="Background" Value="Transparent"/>
+                                        <Setter Property="StrokeThickness" Value="0"/>
+                                    </Style>
+                                </chart:ChartTrackBallBehavior.ChartTrackBallStyle>
+                            </chart:ChartTrackBallBehavior>
+
+                            <chart:ChartZoomPanBehavior EnableMouseWheelZooming="False" EnablePinchZooming="False"
+                                                    ResetOnDoubleTap="False" EnablePanning="True">
+                            </chart:ChartZoomPanBehavior>
+
+                        </chart:SfChart.Behaviors>
+
+                        <chart:SplineAreaSeries ItemsSource="{Binding Data}" XBindingPath="Name" YBindingPath="Score" StrokeThickness="2">
+
+                            <chart:SplineAreaSeries.Stroke>
+                                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                    <GradientStop Color="#0051BE" Offset="0.0" />
+                                    <GradientStop Color="#2297E3" Offset="0.66" />
+                                    <GradientStop Color="#0051BE" Offset="1.0" />
+                                </LinearGradientBrush>
+                            </chart:SplineAreaSeries.Stroke>
+
+                            <chart:SplineAreaSeries.Interior>
+                                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                    <GradientStop Color="#0a2f61" Offset="0.0" />
+                                    <GradientStop Color="#084ca0" Offset="0.5" />
+                                    <GradientStop Color="#730a2f61" Offset="0.8" />
+                                </LinearGradientBrush>
+                            </chart:SplineAreaSeries.Interior>
+
+                            <chart:SplineAreaSeries.TrackBallLabelTemplate>
+                                <DataTemplate>
+                                    <Ellipse Height="15" Width="15" Fill="#285593" Stroke="White" StrokeThickness="2" StrokeDashArray="2,1"/>
+                                </DataTemplate>
+                            </chart:SplineAreaSeries.TrackBallLabelTemplate>
+
+                        </chart:SplineAreaSeries>
+
+                    </chart:SfChart>
+
+                </Grid>
+
+            </Border>
+
+        </Grid>
+
+    </Border>
+
+</Window>

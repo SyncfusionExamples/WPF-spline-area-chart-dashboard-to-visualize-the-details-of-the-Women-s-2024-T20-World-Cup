@@ -1,0 +1,114 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\afyfletcher.png" />
+    <None Remove="Images\ameliakerr.png" />
+    <None Remove="Images\annabelsutherland.png" />
+    <None Remove="Images\bethmooney.png" />
+    <None Remove="Images\chamariathapaththu.png" />
+    <None Remove="Images\deeptisharma.png" />
+    <None Remove="Images\hayleymatthews.png" />
+    <None Remove="Images\kathrynbryce.png" />
+    <None Remove="Images\kavishadilhari.png" />
+    <None Remove="Images\laurawolvaardt.png" />
+    <None Remove="Images\maiabouchier.png" />
+    <None Remove="Images\muneebaali.png" />
+    <None Remove="Images\nahidaakter.png" />
+    <None Remove="Images\nigarsultana.png" />
+    <None Remove="Images\nonkululekomlaba.png" />
+    <None Remove="Images\rachelslater.png" />
+    <None Remove="Images\sadiaiqbal.png" />
+    <None Remove="Images\smritimandhana.png" />
+    <None Remove="Images\sophieecclestone.png" />
+    <None Remove="Images\suziebates.png" />
+    <None Remove="Resources\country_data.json" />
+    <None Remove="Resources\players_data.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\country_data.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\players_data.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="*" />
+    <PackageReference Include="Syncfusion.SfChart.WPF" Version="*" />
+    <PackageReference Include="Syncfusion.Shared.WPF" Version="*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\afyfletcher.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\ameliakerr.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\annabelsutherland.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\bethmooney.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\chamariathapaththu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\deeptisharma.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\hayleymatthews.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\kathrynbryce.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\kavishadilhari.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\laurawolvaardt.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\maiabouchier.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\muneebaali.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\nahidaakter.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\nigarsultana.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\nonkululekomlaba.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\rachelslater.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\sadiaiqbal.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\smritimandhana.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\sophieecclestone.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\suziebates.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
