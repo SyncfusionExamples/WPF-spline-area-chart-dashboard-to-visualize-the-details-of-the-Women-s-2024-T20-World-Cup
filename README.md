@@ -24,6 +24,9 @@ This article will guide you in building a comprehensive dashboard to visualize d
 
 The chart below illustrates the data discussed, providing a clear comparison of the Women's T20 World Cup 2024 results and enabling you to glean insights at a glance.
 
+![Demo gif](https://github.com/user-attachments/assets/5beaaa3b-ffd3-4cde-8e31-71fd0e66190c)
+
+
 ## Troubleshooting
 
 #### Path too long exception
