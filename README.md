@@ -33,4 +33,4 @@ The chart below illustrates the data discussed, providing a clear comparison of 
 
 If you are facing a path too long exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.
 
-For a step-by-step procedure, refer to the [Women's 2024 - T20 Blog]().
+For a step-by-step procedure, refer to the [Women's 2024 - T20 Blog](https://www.syncfusion.com/blogs/post/dynamic-wpf-chart-for-women-t20-stats).
