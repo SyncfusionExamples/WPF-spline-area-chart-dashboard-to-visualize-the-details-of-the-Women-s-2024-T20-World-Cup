@@ -171,7 +171,7 @@
                     </Border.Background>
 
                     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
-                        <TextBlock Text="Total no of Catches taken"  FontSize="17" Foreground="#FFFFFF"/>
+                        <TextBlock Text="Total No. of Catches"  FontSize="17" Foreground="#FFFFFF"/>
                         <TextBlock Text="{Binding CatchValue}" FontSize="19" FontWeight="SemiBold" HorizontalAlignment="Center" Foreground="#c9ffe9"/>
                     </StackPanel>
 
