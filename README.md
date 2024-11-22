@@ -24,7 +24,7 @@ This article will guide you in building a comprehensive dashboard to visualize d
 
 The chart below illustrates the data discussed, providing a clear comparison of the Women's T20 World Cup 2024 results and enabling you to glean insights at a glance.
 
-![Demo gif](https://github.com/user-attachments/assets/5beaaa3b-ffd3-4cde-8e31-71fd0e66190c)
+![Demo gif](https://github.com/user-attachments/assets/cc60e966-046d-43b4-a43c-b66447bb4cb5)
 
 
 ## Troubleshooting
@@ -33,4 +33,4 @@ The chart below illustrates the data discussed, providing a clear comparison of 
 
 If you are facing a path too long exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.
 
-For a step-by-step procedure, refer to the [Women's 2024 - T20 Blog]().
+For a step-by-step procedure, refer to the [Women's 2024 - T20 Blog](https://www.syncfusion.com/blogs/post/dynamic-wpf-chart-for-women-t20-stats).
